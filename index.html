@@ -36,9 +36,41 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Alena is an amateur front-end developer based in Spain."
+    />
+    <title>Amateur developer - Alena</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="./" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Alena logo"
+            class="logo d-none d-md-block" />
+          <img
+            src="images/logo-small.png"
+            alt="Alena logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li class="active">
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="./about.html" title="About Alena"> About</a>
+          </li>
+          <li>
+            <a href="./work.html" title="Alena's Work"> Work</a>
+          </li>
+          <li>
+            <a href="./contact.html" title="Alena's Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋🏻 Hello, I am</p>
       <h1>Alena Terentyeva</h1>
@@ -53,7 +85,11 @@
       </div>
       <div class="row mb-5">
         <div class="col d-none d-md-block">
-          <img src="images/yogurt.png" alt="" class="img-fluid" />
+          <img
+            src="images/yogurt.png"
+            alt="yogurt project preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -66,7 +102,7 @@
                 a large language ocean. A small river named Duden flows by
               </p>
             </div>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -83,17 +119,25 @@
                 a large language ocean. A small river named Duden flows by
               </p>
             </div>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-md-block">
-          <img src="images/weather.png" alt="" class="img-fluid" />
+          <img
+            src="images/weather.png"
+            alt="Weather project preview"
+            class="img-fluid"
+          />
         </div>
       </div>
 
       <div class="row">
         <div class="col d-none d-md-block">
-          <img src="images/dictionary.png" alt="" class="img-fluid" />
+          <img
+            src="images/dictionary.png"
+            alt="Dictionary app preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -106,10 +150,62 @@
                 a large language ocean. A small river named Duden flows by
               </p>
             </div>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contacte me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:alena@gmail.com"
+            class="email-link"
+            title="Email Alena"
+            >alena@gmail.com</a
+          >
+        </div>
+        <div class="social-links text-center">
+          <a
+            href="https://instagram.com/alena"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/alena"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://facebook.com/alena"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Alena and it is
+          <a
+            href="https://github.com/Alyona1703/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
